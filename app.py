@@ -51,7 +51,7 @@ if st.session_state.page == 1:
     """, unsafe_allow_html=True)
     if st.button("Love U 💞"):
         st.session_state.page = 2
-        st.experimental_rerun()
+        st.rerun()
 
 # ---------- PAGE 2 ----------
 elif st.session_state.page == 2:
@@ -62,14 +62,14 @@ elif st.session_state.page == 2:
     """, unsafe_allow_html=True)
     if st.button("Mee too 💕"):
         st.session_state.page = 3
-        st.experimental_rerun()
+        st.rerun()
 
 # ---------- PAGE 3 ----------
 elif st.session_state.page == 3:
     st.markdown("""
         <div style='text-align:center;'>
             <img src='https://i.imgur.com/5d1xX4t.png' width='300'>
-            <h2 style='color:navy;'>Happy Birthday Kusuma 💐</h2>
+            <h2 style='color:navy;'>Happy Birthday MINE  💐</h2>
             <div class='heart'>💙💙💙</div>
         </div>
     """, unsafe_allow_html=True)
