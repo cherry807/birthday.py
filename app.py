@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Happy Birthday Kusuma 💖", page_icon="💝", layout="wide")
 
 # ---------- BACKGROUND IMAGE ----------
-background_url = "https://i.imgur.com/your_uploaded_image.jpg"  # Replace with your uploaded photo URL
+background_url = "https://i.imgur.com/CqhG8Dx.jpeg"  # Replace with your uploaded photo URL
 
 # ---------- CSS STYLING ----------
 st.markdown(f"""
